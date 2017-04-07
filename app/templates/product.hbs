@@ -1,1 +1,17 @@
-{{outlet}}
+<!-- this component shows the products together with the dascription and image and also the price..one can rate the products -->
+<h2>{{model.title}}</h2>
+<h3>{{model.description}}</h3>
+<h4>{{model.venue}}</h4>
+<img src="{{model.image}}" alt="{{model.title}}" /><br>
+
+
+
+
+<h3>Previous Feedback</h3>
+{{#each model.feedbacks as |feedback|}}
+  {{product-rating feedback.rating}} {{feedback-tile feedback=feedback}}
+{{/each}}
+<h3>Leave new Feedback</h3>
+{{new-feedback product=model saveFeedback="saveFeedback"}}
+
+{{#link-to 'store'}}<button class="btn btn-info">BACK TO STORE</button>{{/link-to}}

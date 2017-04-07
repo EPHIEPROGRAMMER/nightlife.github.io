@@ -1,7 +1,6 @@
 # nightlife
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+an ember app that helps Nairobians find the perfect Night-club for them..by users rating and reviewing the night clubs
 
 ## Prerequisites
 

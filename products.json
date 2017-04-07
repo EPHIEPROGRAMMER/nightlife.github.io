@@ -1,0 +1,23 @@
+{ "products": [{
+
+    "title": "Skylux lounge",
+    "image": "https://softkenya.com/directory/wp-content/uploads/2013/05/Skylux-Lounge.jpg",
+    "description": "Westalands road",
+    "Venue": "westi"
+  }, {
+    "title": "Tribeka lounge)",
+    "image": "https://softkenya.com/directory/wp-content/uploads/2013/05/Skylux-Lounge.jpg",
+    "description": "best palce to party",
+    "venue": "jiji"
+  }, {
+    "title": "K1 Club house",
+    "image": "https://softkenya.com/directory/wp-content/uploads/2013/05/Skylux-Lounge.jpg",
+    "description": "best of the best",
+    "venue": "tao"
+  }, {
+    "title": "Cadillac Club",
+    "image": "https://softkenya.com/directory/wp-content/uploads/2013/05/Skylux-Lounge.jpg",
+    "description": "awesome liqour",
+    "venue": "mtaani"
+  }]
+}

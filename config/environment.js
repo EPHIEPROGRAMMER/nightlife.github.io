@@ -17,6 +17,14 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+        piKey: "AIzaSyAtWOBbSFvYwRvxY5Epf6cUOdInins_3M8",
+      authDomain: "nightlife-6e3a4.firebaseapp.com",
+      databaseURL: "https://nightlife-6e3a4.firebaseio.com",
+      storageBucket: "nightlife-6e3a4.appspot.com",
+        },
+
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
